@@ -26,8 +26,16 @@
     <div class="container">
         <?php
             include 'navbar.php';
-            include 'login.php';
         ?>
+        <!-- upload form -->
+        <?php
+            include 'upload_form.php';
+        ?>
+
+        <?php
+            include 'gallery.php';
+        ?>
+        
     </div>
 
     <!-- MDB -->
